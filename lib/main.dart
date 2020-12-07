@@ -16,27 +16,80 @@ class MyApp extends StatelessWidget {
             children: [
               SizedBox(
                 height: 62,
+                child: Container(color: AppbarCol,),
               ),
               appBarContnt(),
               SizedBox(
                 height: 20,
               ),
               scrollRow(),
-              SizedBox(
-                height: 20,
-              ),
               Flexible(
                 child: GridView.count(
                   crossAxisCount: 2,
+                  crossAxisSpacing: 16.0,
+                  mainAxisSpacing: 16.0,
+                  shrinkWrap: true,
                   padding: EdgeInsets.all(16.0),
-                  childAspectRatio: 8.0 / 9.0,
-                  // TODO: Build a grid of cards (102)
-                  children: <Widget>[Card(),Card(),Card(),Card(),Card(),Card()],
+                  childAspectRatio: 9.0 / 9.0,
+                  children: <Widget>[
+                    buildCarditem("1", "Cheesy Burger"),
+                    buildCarditem("2", "Spaghetti with cheese"),
+                     buildCarditem("3", "Marbled beef steak"),
+                      buildCarditem("4", "Noodles"),
+                       buildCarditem("5", "Pasta"),
+                       buildCarditem("6", "Pizza"),
+                  ],
                 ),
               )
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  Card buildCarditem(
+    String img,
+    String food,
+  ) {
+    return Card(
+      shape: RoundedRectangleBorder(
+        side: BorderSide(color: Colors.white70, width: 1),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          AspectRatio(
+            aspectRatio: 18.0 / 12.0,
+            child: Image.asset(
+              'assets/images/gv$img.png',
+              fit: BoxFit.cover,
+            ),
+          ),
+          Flexible(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    food,
+                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 16,
+                      
+                      color: AppbarCol,
+                      
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
