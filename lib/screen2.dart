@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'welcome.dart';
 
 class Mainhall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return  Scaffold(
         body: Column(
           children: [
             Statusbar(),
@@ -15,9 +14,18 @@ class Mainhall extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 30, top: 30),
                 child: Align(
                   alignment: Alignment.bottomLeft,
-                  child: Icon(
-                    Icons.arrow_back,
-                    color: Colors.white,
+                  child: InkWell(
+                    onTap: () {
+                      print("taped");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Login()),
+                      );
+                    },
+                    child: Icon(
+                      Icons.arrow_back,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               )
@@ -28,8 +36,8 @@ class Mainhall extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   SizedBox(
-                            height: 5,
-                          ),
+                    height: 5,
+                  ),
                   Text(
                     "WINE DINNERS",
                     style: TextStyle(
@@ -42,9 +50,9 @@ class Mainhall extends StatelessWidget {
                           fontSize: 28,
                           fontWeight: FontWeight.w800,
                           color: AppbarCol)),
-                          SizedBox(
-                            height: 5,
-                          ),
+                  SizedBox(
+                    height: 5,
+                  ),
                   Text(
                     "Wednesday, April 3,2021 \n at 7:00pm - 10:00pm",
                     style: TextStyle(
@@ -55,18 +63,24 @@ class Mainhall extends StatelessWidget {
                   ),
                   button(),
                   Row(
-                   mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Last Update (21:20)",style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.grey),
-                    textAlign: TextAlign.center,),
-                     Text(" Update",style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.pink),
-                    textAlign: TextAlign.center,),
+                      Text(
+                        "Last Update (21:20)",
+                        style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.grey),
+                        textAlign: TextAlign.center,
+                      ),
+                      Text(
+                        " Update",
+                        style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.pink),
+                        textAlign: TextAlign.center,
+                      ),
                     ],
                   )
                 ],
@@ -74,8 +88,8 @@ class Mainhall extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      )
+    ;
   }
 
   Padding button() {
