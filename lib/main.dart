@@ -25,6 +25,8 @@ class MyApp extends StatelessWidget {
               scrollRow(),
               Flexible(
                 child: GridView.count(
+                        physics: BouncingScrollPhysics(),
+
                   crossAxisCount: 2,
                   crossAxisSpacing: 16.0,
                   mainAxisSpacing: 16.0,
@@ -53,13 +55,16 @@ class MyApp extends StatelessWidget {
     String food,
   ) {
     return Card(
+      
       shape: RoundedRectangleBorder(
         side: BorderSide(color: Colors.white70, width: 1),
         borderRadius: BorderRadius.circular(10),
       ),
       clipBehavior: Clip.antiAlias,
+      
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
+        
         children: <Widget>[
           AspectRatio(
             aspectRatio: 18.0 / 12.0,
