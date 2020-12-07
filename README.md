@@ -1,6 +1,6 @@
-# event_access
+# UI/UX Designing
 
-A new Flutter project.
+Using Flutter
 
 ## Getting Started
 
@@ -8,6 +8,9 @@ A new Flutter project.
 
 ![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen1.png?raw=true)
 
+
+## SCREEN 2
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
 
 
 ## COLORS
