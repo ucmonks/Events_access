@@ -14,10 +14,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           child: Column(
             children: [
-              SizedBox(
-                height: 62,
-                child: Container(color: AppbarCol,),
-              ),
+              Statusbar(),
               appBarContnt(),
               SizedBox(
                 height: 20,
@@ -204,4 +201,16 @@ class MyApp extends StatelessWidget {
 
   static const AppbarCol = Color(0xFF12053d);
   static const BackgrndCol = Color(0xFFf5f6f8);
+}
+
+class Statusbar extends StatelessWidget {
+ 
+  @override
+  Widget build(BuildContext context) {
+    const AppbarCol = Color(0xFF12053d);
+    return SizedBox(
+      height: MediaQuery.of(context).padding.top,
+      child: Container(color: AppbarCol,),
+    );
+  }
 }
