@@ -1,7 +1,8 @@
+import 'package:event_access/screen2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Mainhall());
 }
 
 class MyApp extends StatelessWidget {
