@@ -1,3 +1,5 @@
+import 'screen6.dart';
+
 import 'package:flutter/material.dart';
 
 class Access extends StatelessWidget {
@@ -53,7 +55,7 @@ Padding button(BuildContext context) {
         print("CLOSE");
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => Access()),
+          MaterialPageRoute(builder: (context) => Events()),
         );
       },
     ),
