@@ -1,17 +1,32 @@
-# events_access
+# UI/UX Designing
 
-A new Flutter application.
+Using Flutter
 
-## Getting Started
+## ToDO
+  Navigation Pop
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## SCREEN 1
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen3.png?raw=true)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## SCREEN 2
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen1.png?raw=true)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Events_access" 
+
+## SCREEN 3
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
+
+
+## COLORS
+
+  violet           #12053d  
+  
+  yellow           #e4a616
+
+  pink             #d33c98
+  
+  backgrounCol     #f5f6f8
+
+## Links
+
+https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/83d49482756931.5d271fdb9d1b9.png 
