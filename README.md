@@ -12,14 +12,18 @@ Using Flutter
 ## SCREEN 2
 ![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen1.png?raw=true)
 
-## SCREEN 4
+## SCREEN 3
 ![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
 
-## SCREEN 5
-![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
+## SCREEN 4
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen4.png.png?raw=true)
 
 ## SCREEN 
-![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen5.png?raw=true)
+
+## SCREEN 
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/Created%20Screen6.png?raw=true)
+
 
 
 ## COLORS
