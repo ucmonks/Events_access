@@ -17,7 +17,6 @@ class Mainhall extends StatelessWidget {
                   child: InkWell(
                     onTap: () {
                       print("taped");
-                      
                     },
                     child: Icon(
                       Icons.arrow_back,
