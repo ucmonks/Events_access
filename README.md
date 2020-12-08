@@ -3,7 +3,8 @@
 Using Flutter
 
 ## ToDO
-  Navigation Pop
+  Navigation Pop   All
+  List View        S6
 
 
 ## SCREEN 1
