@@ -12,8 +12,13 @@ Using Flutter
 ## SCREEN 2
 ![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen1.png?raw=true)
 
+## SCREEN 4
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
 
-## SCREEN 3
+## SCREEN 5
+![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
+
+## SCREEN 
 ![alt text](https://github.com/abhi123vj/Events_access/blob/Abhiram/reff%20imgs/CreatedScreen2.png?raw=true)
 
 
