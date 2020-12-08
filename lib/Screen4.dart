@@ -49,13 +49,60 @@ class WineDinner extends StatelessWidget {
                   ),
                 )
               ],
-            )
+            ),
+            SizedBox(
+              height: 70,
+            ),
+            SizedBox(
+              height: 300,
+              child: Image.asset("assets/images/bandphn.png")),
+            SizedBox(
+              height: 50,
+            ),
+            Text("Waiting wristband",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.w600),),
+            SizedBox(
+              height: 70,
+            ),
+             button(context),
           ],
         ),
       ),
     );
   }
 }
+
+  Padding button(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: RaisedButton(
+        textColor: Colors.white,
+        shape: RoundedRectangleBorder(
+            borderRadius: new BorderRadius.circular(10.0)),
+        padding: EdgeInsets.all(0.0),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+    
+              color: Colors.white,
+            
+          ),
+          child: Text(
+            "SCAN",
+            style: TextStyle(fontSize: 29,color: AppbarCol, fontWeight: FontWeight.w600),
+          ),
+          padding: EdgeInsets.symmetric(horizontal: 140, vertical: 15.0),
+        ),
+        onPressed: () {
+          print("pressed ");
+          Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => WineDinner()),
+                      );
+        },
+      ),
+    );
+  }
+
 
 const AppbarCol = Color(0xFF12053d);
 const BackgrndCol = Color(0xFFf5f6f8);
