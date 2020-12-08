@@ -1,5 +1,5 @@
+import 'package:event_access/Screen4.dart';
 import 'package:flutter/material.dart';
-import 'welcome.dart';
 
 class Mainhall extends StatelessWidget {
   @override
@@ -17,10 +17,7 @@ class Mainhall extends StatelessWidget {
                   child: InkWell(
                     onTap: () {
                       print("taped");
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Login()),
-                      );
+                      
                     },
                     child: Icon(
                       Icons.arrow_back,
@@ -61,7 +58,7 @@ class Mainhall extends StatelessWidget {
                         color: Colors.grey),
                     textAlign: TextAlign.center,
                   ),
-                  button(),
+                  button(context),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -92,7 +89,7 @@ class Mainhall extends StatelessWidget {
     ;
   }
 
-  Padding button() {
+  Padding button(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: RaisedButton(
@@ -119,6 +116,10 @@ class Mainhall extends StatelessWidget {
         ),
         onPressed: () {
           print("pressed ");
+          Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => WineDinner()),
+                      );
         },
       ),
     );
