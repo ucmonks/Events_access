@@ -138,5 +138,6 @@ class Statusbar extends StatelessWidget {
   }
 }
 
+
 const AppbarCol = Color(0xFF12053d);
 const BackgrndCol = Color(0xFFf5f6f8);

@@ -1,5 +1,5 @@
+import 'package:event_access/screen5.dart';
 import 'package:flutter/material.dart';
-import 'screen2.dart';
 
 class WineDinner extends StatelessWidget {
   @override
@@ -96,7 +96,7 @@ class WineDinner extends StatelessWidget {
           print("pressed ");
           Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => WineDinner()),
+                        MaterialPageRoute(builder: (context) => Access()),
                       );
         },
       ),
